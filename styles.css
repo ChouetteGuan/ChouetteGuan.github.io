@@ -24,12 +24,14 @@ p{color:var(--muted);line-height:1.5}
 
 .resume-section, .resume {margin-top:20px}
 .resume h2{font-weight:700;font-size:1.1rem;margin-bottom:6px;background:linear-gradient(90deg,var(--gold1),var(--gold2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;position:relative;text-shadow:0 1px 0 rgba(0,0,0,0.4)}
-.resume h2::after{content:"";position:absolute;top:0;left:-60%;width:40%;height:100%;background:linear-gradient(90deg,rgba(255,255,255,0.25),rgba(255,255,255,0));transform:skewX(-20deg);animation:shine 2.8s linear infinite;opacity:0.9;pointer-events:none}
-@keyframes shine{to{left:160%}}
 
 .resume-item{padding:12px;border-left:4px solid rgba(255,181,0,0.5);border-top:none;border-bottom:1px solid rgba(255,255,255,0.03);background:linear-gradient(180deg,rgba(255,215,125,0.02),rgba(255,255,255,0.01));box-shadow:0 6px 18px var(--gold-glow) inset}
 .resume-item h3{margin:0;font-size:1rem;color:var(--text)}
 .resume-item p.muted{margin:6px 0 0;color:var(--muted);font-size:0.9rem}
 .resume ul{margin:6px 0 0;padding-left:18px}
+
+.group-photo{margin:18px 0 12px;text-align:center}
+.group-photo img{max-width:760px;width:100%;height:auto;border-radius:10px;border:1px solid rgba(255,255,255,0.04);box-shadow:0 10px 30px rgba(2,6,23,0.6)}
+.group-photo figcaption{margin-top:8px;color:var(--muted);font-size:0.9rem}
 
 @media (max-width:560px){.hero{flex-direction:row;gap:12px}.avatar{width:72px;height:72px}}
