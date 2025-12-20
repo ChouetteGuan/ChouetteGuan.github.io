@@ -19,4 +19,10 @@ p{color:var(--muted);line-height:1.5}
 .links a{color:var(--accent);text-decoration:none}
 .foot{text-align:center;margin-top:22px;color:rgba(255,255,255,0.45);font-size:0.9rem}
 
+.resume-section, .resume {margin-top:20px}
+.resume-item{padding:10px 0;border-top:1px solid rgba(255,255,255,0.03)}
+.resume-item h3{margin:0;font-size:1rem}
+.resume-item p.muted{margin:6px 0 0;color:var(--muted);font-size:0.9rem}
+.resume ul{margin:6px 0 0;padding-left:18px}
+
 @media (max-width:560px){.hero{flex-direction:row;gap:12px}.avatar{width:72px;height:72px}}
