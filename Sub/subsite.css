@@ -1,0 +1,10 @@
+:root{--bg:#0f1724;--muted:#9aa4b2;--accent:#6ee7b7;--text:#e6eef6}
+*{box-sizing:border-box}
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;background:linear-gradient(180deg,var(--bg),#071023);color:var(--text);margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:24px}
+.container{max-width:720px;width:100%;background:rgba(255,255,255,0.02);padding:20px;border-radius:10px;border:1px solid rgba(255,255,255,0.04)}
+.hero{display:flex;flex-direction:column;gap:6px}
+h1{margin:0}
+.tagline{margin:0;color:var(--muted)}
+.foot{margin-top:18px;color:rgba(255,255,255,0.45);font-size:0.9rem}
+code{background:rgba(255,255,255,0.02);padding:2px 6px;border-radius:4px;color:var(--accent)}
+@media (max-width:560px){.container{padding:16px}}
